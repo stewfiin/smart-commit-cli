@@ -1,0 +1,24 @@
+{
+  "name": "smart-commit-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI tool to automatically generate Conventional Commits messages from staged Git diffs using local Ollama AI models.",
+  "type": "module",
+  "bin": {
+    "smart-commit": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "conventional-commits",
+    "cli",
+    "ollama",
+    "ai",
+    "local-ai",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT"
+}
